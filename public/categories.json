@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Art & Design",
+      "icon": "🎨"
+    },
+    {
+      "id": 2,
+      "name": "Development",
+      "icon": "💻"
+    },
+    {
+      "id": 3,
+      "name": "Lifestyle",
+      "icon": "🌿"
+    },
+    {
+      "id": 4,
+      "name": "Personal Development",
+      "icon": "🚀"
+    },
+    {
+      "id": 5,
+      "name": "Business",
+      "icon": "🏢"
+    },
+    {
+      "id": 6,
+      "name": "Finance",
+      "icon": "💰"
+    },
+    {
+      "id": 7,
+      "name": "Marketing",
+      "icon": "📊"
+    },
+    {
+      "id": 8,
+      "name": "Photography",
+      "icon": "📷"
+    },
+    {
+      "id": 9,
+      "name": "Data Science",
+      "icon": "📈"
+    },
+    {
+      "id": 10,
+      "name": "Health & Fitness",
+      "icon": "🏋️"
+    },
+    {
+      "id": 11,
+      "name": "Music",
+      "icon": "🎵"
+    },
+    {
+      "id": 12,
+      "name": "Teaching & Academics",
+      "icon": "📚"
+    }
+  ]
+  
