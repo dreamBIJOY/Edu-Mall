@@ -38,33 +38,33 @@ function Navbar() {
   const toggleUser = () => {
     setiSOpenLogin(!isOpenLogin);
   };
-  useEffect(() => {
-    const outSideClick = (ok) => {
-      if (loginRef.current && !loginRef.current.contains(ok.target))
-        setiSOpenLogin(false);
-    };
+//   useEffect(() => {
+//     const outSideClick = (ok) => {
+//       if (loginRef.current && !loginRef.current.contains(ok.target))
+//         setiSOpenLogin(false);
+//     };
 
-    document.addEventListener("click", outSideClick);
-    return () => {
-      document.removeEventListener("click", outSideClick);
-    };
-  }, []);
+//     document.addEventListener("click", outSideClick);
+//     return () => {
+//       document.removeEventListener("click", outSideClick);
+//     };
+//   }, []);
 
   const [isOpenSignUp, setIsOpenSignUp] = useState(false);
   const signUpRef = useRef(null);
   const tggoleSignUp = () => {
     setIsOpenSignUp(!isOpenSignUp);
   };
-  useEffect(() => {
-    const outSideClick = (event) => {
-      if (signUpRef.current && !signUpRef.current.contains(event.target))
-        setIsOpenSignUp(false);
-    };
-    document.addEventListener("click", outSideClick);
-    return () => {
-      document.removeEventListener("click", outSideClick);
-    };
-  }, []);
+//   useEffect(() => {
+//     const outSideClick = (event) => {
+//       if (signUpRef.current && !signUpRef.current.contains(event.target))
+//         setIsOpenSignUp(false);
+//     };
+//     document.addEventListener("click", outSideClick);
+//     return () => {
+//       document.removeEventListener("click", outSideClick);
+//     };
+//   }, []);
 
   return (
     <div className="bg-white py-8 shadow-lg">
@@ -75,7 +75,7 @@ function Navbar() {
           </Link>
         </div>
 
-        <div className="flex items-center gap-3 relative cursor-pointer">
+        <div onClick={toggleMenus} className="flex items-center gap-3 relative cursor-pointer">
           <RiMenuUnfold3Fill size={35} className="" />
           <h1 className="text-xl font-semibold">Category</h1>
         </div>
