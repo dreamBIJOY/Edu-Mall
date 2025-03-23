@@ -2,62 +2,62 @@
     {
       "id": 1,
       "name": "Art & Design",
-      "icon": "🎨"
+      "icon": "../src/assets/icon/categories icon/vector (1).png"
     },
     {
       "id": 2,
       "name": "Development",
-      "icon": "💻"
+      "icon": "../src/assets/icon/categories icon/web-programming.png"
     },
     {
       "id": 3,
       "name": "Lifestyle",
-      "icon": "🌿"
+      "icon": "../src/assets/icon/categories icon/sunrise.png"
     },
     {
       "id": 4,
       "name": "Personal Development",
-      "icon": "🚀"
+      "icon": "../src/assets/icon/categories icon/self-improvement.png"
     },
     {
       "id": 5,
       "name": "Business",
-      "icon": "🏢"
+      "icon": "../src/assets/icon/categories icon/briefcase.png"
     },
     {
       "id": 6,
       "name": "Finance",
-      "icon": "💰"
+      "icon": "../src/assets/icon/categories icon/budget.png"
     },
     {
       "id": 7,
       "name": "Marketing",
-      "icon": "📊"
+      "icon": "../src/assets/icon/categories icon/megaphone.png"
     },
     {
       "id": 8,
       "name": "Photography",
-      "icon": "📷"
+      "icon": "../src/assets/icon/categories icon/camera.png"
     },
     {
       "id": 9,
       "name": "Data Science",
-      "icon": "📈"
+      "icon": "../src/assets/icon/categories icon/data-science.png"
     },
     {
       "id": 10,
       "name": "Health & Fitness",
-      "icon": "🏋️"
+      "icon": "../src/assets/icon/categories icon/mental-health.png"
     },
     {
       "id": 11,
       "name": "Music",
-      "icon": "🎵"
+      "icon": "../src/assets/icon/categories icon/speaker.png"
     },
     {
       "id": 12,
       "name": "Teaching & Academics",
-      "icon": "📚"
+      "icon": "../src/assets/icon/categories icon/students.png"
     }
   ]
   

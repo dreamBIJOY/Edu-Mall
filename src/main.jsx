@@ -1,10 +1,19 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./root/Root.jsx";
 import HomePage from "./pages/home page/HomePage.jsx";
+import CoursesPage from "./pages/courses page/CoursesPage.jsx";
+import BlogPage from "./pages/blog page/BlogPage.jsx";
+import AboutUsPage from "./pages/about us page/AboutUsPage.jsx";
+import ContactUsPage from "./pages/contact us page/ContactUsPage.jsx";
+import CartPage from "./pages/cart page/CartPage.jsx";
+import LoginPage from "./pages/login page/LoginPage.jsx";
+import SignUpPage from "./pages/sign up page/SignUpPage.jsx";
+import CategoriesPage from "./pages/categorie page/CategoriesPage.jsx";
+import CategoriesDetails from "./pages/categorie page/categories components/CategoriesDetails.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -17,23 +26,35 @@ const router = createBrowserRouter([
       },
       {
         path: "/courses",
-        element: <h1>Home Page</h1>,
+        element: <CoursesPage/>,
       },
       {
         path: "/blog",
-        element: <h1>Home Page</h1>,
+        element: <BlogPage/>,
       },
       {
         path: "/about",
-        element: <h1>Home Page</h1>,
+        element: <AboutUsPage/>,
       },
       {
         path: "/contact",
-        element: <h1>Home Page</h1>,
+        element: <ContactUsPage/>,
       },
       {
-        path: "/",
-        element: <h1>Home Page</h1>,
+        path: "/cart",
+        element: <CartPage/>,
+      },
+      {
+        path: "/login",
+        element: <LoginPage/>,
+      },
+      {
+        path: "/signup",
+        element: <SignUpPage/>,
+      },
+      {
+        path: "/categories/:id",
+        element: <CategoriesDetails/>,
       },
     ],
   },

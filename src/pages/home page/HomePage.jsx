@@ -2,7 +2,8 @@ import React from "react";
 import TextSection from "./home components/hero section/TextSection";
 import ImageSection from "./home components/hero section/ImageSection";
 import LastSection from "./home components/hero section/LastSection";
-import TopCategories from "./home components/top categories/TopCategories";
+import Categories from "../categorie page/categories components/Categories";
+
 
 
 function HomePage() {
@@ -15,7 +16,8 @@ function HomePage() {
         </div>
       </div>
           <LastSection/>
-          <TopCategories/>
+          <Categories/>
+          
     </>
   );
 }
