@@ -8,7 +8,7 @@ import Linkedin from '../../assets/icon/linkedin.png'
 
 function Footer() {
   return (
-    <div className='py-10'>
+    <div className='py-10 bg-[#f9f9fb]'>
         <div className='w-10/12 mx-auto flex items-center justify-between'>
             <div>
                 <img className='w-[180px]' src={Logo} alt="" />
