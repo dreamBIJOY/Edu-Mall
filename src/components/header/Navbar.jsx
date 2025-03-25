@@ -38,33 +38,33 @@ function Navbar() {
   const toggleUser = () => {
     setiSOpenLogin(!isOpenLogin);
   };
-//   useEffect(() => {
-//     const outSideClick = (ok) => {
-//       if (loginRef.current && !loginRef.current.contains(ok.target))
-//         setiSOpenLogin(false);
-//     };
+  useEffect(() => {
+    const outSideClick = (ok) => {
+      if (loginRef.current && !loginRef.current.contains(ok.target))
+        setiSOpenLogin(false);
+    };
 
-//     document.addEventListener("click", outSideClick);
-//     return () => {
-//       document.removeEventListener("click", outSideClick);
-//     };
-//   }, []);
+    document.addEventListener("click", outSideClick);
+    return () => {
+      document.removeEventListener("click", outSideClick);
+    };
+  }, []);
 
   const [isOpenSignUp, setIsOpenSignUp] = useState(false);
   const signUpRef = useRef(null);
   const tggoleSignUp = () => {
     setIsOpenSignUp(!isOpenSignUp);
   };
-//   useEffect(() => {
-//     const outSideClick = (event) => {
-//       if (signUpRef.current && !signUpRef.current.contains(event.target))
-//         setIsOpenSignUp(false);
-//     };
-//     document.addEventListener("click", outSideClick);
-//     return () => {
-//       document.removeEventListener("click", outSideClick);
-//     };
-//   }, []);
+  useEffect(() => {
+    const outSideClick = (event) => {
+      if (signUpRef.current && !signUpRef.current.contains(event.target))
+        setIsOpenSignUp(false);
+    };
+    document.addEventListener("click", outSideClick);
+    return () => {
+      document.removeEventListener("click", outSideClick);
+    };
+  }, []);
 
   return (
     <div className="bg-white py-8 shadow-lg">
@@ -175,7 +175,7 @@ function Navbar() {
         <div
           className={`${
             isOpenLogin
-              ? "w-[530px] h-[750px] bg-white shadow-lg rounded-lg ml-[500px] absolute top-[179px] p-10"
+              ? "w-[530px] h-[670px] bg-white shadow-lg rounded-lg ml-[500px] absolute top-[179px] p-10"
               : "hidden"
           } `}
         >
@@ -207,19 +207,19 @@ function Navbar() {
             />
           </div>
 
-          <div className="mt-12">
+          <div className="mt-8">
             <button className="btn w-[450px] h-[75px] bg-[#0071dc] text-2xl text-white rounded-lg border-none hover:bg-yellow-500 hover:text-black">
               Login
             </button>
           </div>
 
-          <div className="flex items-center gap-8 justify-center mt-14">
+          <div className="flex items-center gap-8 justify-center mt-6">
             <hr className="w-[120px] text-gray-300" />
             <h1 className="text-xl text-gray-600">or Log-in with</h1>
             <hr className="w-[120px] text-gray-300" />
           </div>
 
-          <div className="flex items-center justify-between mt-14">
+          <div className="flex items-center justify-between mt-6">
             <div className="flex">
               <RiFacebookFill
                 className="text-[#0071dc] absolute mt-5 ml-4"
@@ -245,12 +245,12 @@ function Navbar() {
         <div
           className={`${
             isOpenSignUp
-              ? "w-[800px] h-[750px] bg-white shadow-lg rounded-lg ml-[350px] absolute top-[179px] p-10"
+              ? "w-[800px] h-[670px] bg-white shadow-lg rounded-lg ml-[350px] absolute top-[179px] p-10"
               : "hidden"
           } `}
         >
           <h1 className="text-4xl font-bold text-center">Sign Up</h1>
-          <h2 className="text-xl text-gray-600 text-center mt-6">
+          <h2 className="text-xl text-gray-600 text-center mt-3">
             Already have an account?
             <span className="text-black font-semibold">Log in</span>
           </h2>
@@ -327,7 +327,7 @@ function Navbar() {
             Accept the Terms and Privacy Policy
           </h1>
 
-          <div className="mt-12">
+          <div className="mt-6">
             <button className="btn w-[720px] h-[75px] bg-[#0071dc] text-2xl text-white rounded-lg border-none hover:bg-yellow-500 hover:text-black">
               Register
             </button>

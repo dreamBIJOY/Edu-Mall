@@ -1,0 +1,27 @@
+[
+    {
+      "avatarUrl": "https://example.com/avatars/user1.jpg",
+      "name": "John Doe",
+      "date": "2025-03-24",
+      "readTime": "5 min"
+    },
+    {
+      "avatarUrl": "https://example.com/avatars/user2.jpg",
+      "name": "Jane Smith",
+      "date": "2025-03-23",
+      "readTime": "7 min"
+    },
+    {
+      "avatarUrl": "https://example.com/avatars/user3.jpg",
+      "name": "Michael Brown",
+      "date": "2025-03-22",
+      "readTime": "4 min"
+    },
+    {
+      "avatarUrl": "https://example.com/avatars/user4.jpg",
+      "name": "Emily Johnson",
+      "date": "2025-03-21",
+      "readTime": "6 min"
+    }
+  ]
+  

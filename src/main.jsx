@@ -13,6 +13,7 @@ import LoginPage from "./pages/login page/LoginPage.jsx";
 import SignUpPage from "./pages/sign up page/SignUpPage.jsx";
 import CategoriesPage from "./pages/categorie page/CategoriesPage.jsx";
 import CategoriesDetails from "./pages/categorie page/categories components/CategoriesDetails.jsx";
+import CourseDetails from "./pages/courses page/components/CourseDetails.jsx";
 
 
 const router = createBrowserRouter([
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/categories/:id",
         element: <CategoriesDetails/>,
+      },
+      {
+        path: "/coursedetails/:id",
+        element: <CourseDetails/> ,
       },
     ],
   },

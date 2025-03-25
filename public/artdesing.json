@@ -13,7 +13,7 @@
       "rating": 4.5,
       "reviews": 2,
       "tags": ["Featured", "Free"],
-      "image": "../src/assets/courses/adobe-illustrator.jpg"
+      "image": "../src/assets/image/blog image/Adobe Illustrator CC - Essentials Training Course.jpg"
     },
     {
       "id": 2,
@@ -29,7 +29,7 @@
       "rating": 4.7,
       "reviews": 120,
       "tags": ["Best Seller"],
-      "image": "../src/assets/courses/graphic-design.jpg"
+      "image": "../src/assets/image/blog image/original.webp"
     },
     {
       "id": 3,
@@ -45,7 +45,7 @@
       "rating": 4.6,
       "reviews": 85,
       "tags": ["Featured", "Free"],
-      "image": "../src/assets/courses/digital-marketing.jpg"
+      "image": "../src/assets/image/blog image/Digital Marketing 101.jpg"
     },
     {
       "id": 4,
@@ -61,7 +61,7 @@
       "rating": 4.9,
       "reviews": 200,
       "tags": ["Best Seller"],
-      "image": "../src/assets/courses/web-development.jpg"
+      "image": "../src/assets/image/blog image/Web Development Bootcamp.jpg"
     },
     {
       "id": 5,
@@ -77,7 +77,7 @@
       "rating": 4.5,
       "reviews": 50,
       "tags": ["Featured", "Free"],
-      "image": "../src/assets/courses/photography.jpg"
+      "image": "../src/assets/image/blog image/Photography Basics.webp"
     },
     {
       "id": 6,
@@ -93,7 +93,7 @@
       "rating": 4.3,
       "reviews": 40,
       "tags": [],
-      "image": "../src/assets/courses/personal-finance.jpg"
+      "image": "../src/assets/image/blog image/Personal Finance Management.jpg"
     },
     {
       "id": 7,
@@ -109,7 +109,7 @@
       "rating": 4.8,
       "reviews": 90,
       "tags": ["Featured", "Free"],
-      "image": "../src/assets/courses/yoga.jpg"
+      "image": "../src/assets/image/blog image/Yoga for Beginners.jpg"
     },
     {
       "id": 8,
@@ -125,7 +125,7 @@
       "rating": 4.6,
       "reviews": 55,
       "tags": [],
-      "image": "../src/assets/courses/music-theory.jpg"
+      "image": "../src/assets/image/blog image/Music Theory Fundamentals.jpg"
     },
     {
       "id": 9,
@@ -141,7 +141,7 @@
       "rating": 4.7,
       "reviews": 70,
       "tags": ["Best Seller"],
-      "image": "../src/assets/courses/public-speaking.jpg"
+      "image": "../src/assets/image/blog image/Public Speaking Mastery.jpg"
     },
     {
       "id": 10,
@@ -157,7 +157,7 @@
       "rating": 4.8,
       "reviews": 150,
       "tags": ["Best Seller"],
-      "image": "../src/assets/courses/ecommerce.jpg"
+      "image": "../src/assets/image/blog image/E-commerce Business Guide.jpg"
     }
   ]
   

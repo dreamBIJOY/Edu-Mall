@@ -1,0 +1,615 @@
+[
+    {
+      "id": 1,
+      "category": "Art & Design",
+      "title": "Mastering Digital Illustration",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Featured"],
+      "image": "https://www.sunmediamarketing.com/wp-content/uploads/2024/01/Mastering-Digital-Art-Marketing-Unleashing-Effective-Strategies-and-Pro-Tips-scaled.jpg",
+      "description": "Learn the fundamentals of digital illustration step by step."
+    },
+    {
+      "id": 2,
+      "category": "Art & Design",
+      "title": "Watercolor Painting Techniques",
+      "type": "Course",
+      "lessons": 8,
+      "duration": "4 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 19.99,
+        "original": 29.99,
+        "discount": "-33%"
+      },
+      "tags": ["Popular"],
+      "image": "https://artincontext.org/wp-content/uploads/2022/03/Watercolor-Paintings-Tips.jpg",
+      "description": "Explore watercolor painting techniques for stunning artwork."
+    },
+    {
+      "id": 3,
+      "category": "Art & Design",
+      "title": "Graphic Design for Beginners",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 24.99,
+        "original": 34.99,
+        "discount": "-29%"
+      },
+      "tags": ["Trending"],
+      "image": "https://cdn.prod.website-files.com/65130e79c72ae8812db3412e/6718fbb85d1152665bfafec4_Untitled%20design%20(14).jpg",
+      "description": "Learn the principles of graphic design and branding."
+    },
+    {
+      "id": 4,
+      "category": "Development",
+      "title": "Full-Stack Web Development",
+      "type": "Course",
+      "lessons": 25,
+      "duration": "15 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 49.99,
+        "original": 69.99,
+        "discount": "-30%"
+      },
+      "tags": ["Best Seller"],
+      "image": "https://codingbytes.com/wp-content/uploads/2022/03/full-stack-web-development.jpg",
+      "description": "Become a full-stack web developer with hands-on projects."
+    },
+    {
+      "id": 5,
+      "category": "Development",
+      "title": "JavaScript Essentials",
+      "type": "Course",
+      "lessons": 18,
+      "duration": "10 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 39.99,
+        "original": 49.99,
+        "discount": "-20%"
+      },
+      "tags": ["Top Rated"],
+      "image": "https://strapi-images-aws-s3.s3.us-west-2.amazonaws.com/javascript_essential_163f7c6aff.png",
+      "description": "Master JavaScript fundamentals and modern web development."
+    },
+    {
+      "id": 6,
+      "category": "Development",
+      "title": "Python for Data Science",
+      "type": "Course",
+      "lessons": 20,
+      "duration": "12 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 59.99,
+        "original": 79.99,
+        "discount": "-25%"
+      },
+      "tags": ["Expert Choice"],
+      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2020/11/python-libraries-for-data-science.webp",
+      "description": "Learn Python programming for data analysis and AI."
+    },
+    {
+      "id": 7,
+      "category": "Lifestyle",
+      "title": "Minimalist Living",
+      "type": "Course",
+      "lessons": 8,
+      "duration": "3 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 14.99,
+        "original": 19.99,
+        "discount": "-25%"
+      },
+      "tags": ["New"],
+      "image": "https://images.squarespace-cdn.com/content/v1/5c1e4e00506fbef56473b460/5095db7e-8a18-473d-a4ea-f3ade24d864b/minimalist+living+room.jpg",
+      "description": "Adopt a minimalist lifestyle for a stress-free life."
+    },
+    {
+      "id": 8,
+      "category": "Lifestyle",
+      "title": "Healthy Eating Habits",
+      "type": "Course",
+      "lessons": 6,
+      "duration": "3.5 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 19.99,
+        "original": 24.99,
+        "discount": "-20%"
+      },
+      "tags": ["Wellness"],
+      "image": "https://nyumi.com/cdn/shop/articles/istockphoto-855098134-612x612.webp?v=1704194155",
+      "description": "Learn how to maintain a healthy diet and lifestyle."
+    },
+    {
+      "id": 9,
+      "category": "Lifestyle",
+      "title": "Yoga for Beginners",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Popular"],
+      "image": "https://hips.hearstapps.com/hmg-prod/images/cheerful-pretty-woman-with-hair-bun-in-tight-royalty-free-image-1672861623.jpg",
+      "description": "Start your yoga journey with basic poses and techniques."
+    },
+  {
+      "id": 10,
+      "category": "Personal Development",
+      "title": "Time Management Mastery",
+      "type": "Course",
+      "lessons": 8,
+      "duration": "4 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 24.99,
+        "original": 34.99,
+        "discount": "-29%"
+      },
+      "tags": ["Featured"],
+      "image": "https://www.teamly.com/blog/wp-content/uploads/2022/01/What-Happens-When-We-Have-Poor-Time-Management.png",
+      "description": "Learn how to manage your time effectively and boost your productivity."
+    },
+    {
+      "id": 11,
+      "category": "Personal Development",
+      "title": "Emotional Intelligence Boost",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Self-Help"],
+      "image": "https://www.skillcast.com/hubfs/emotional%20intelligence_1200x627.jpg",
+      "description": "Develop your emotional intelligence and improve your relationships and career."
+    },
+    {
+      "id": 12,
+      "category": "Personal Development",
+      "title": "Mindfulness for Beginners",
+      "type": "Course",
+      "lessons": 7,
+      "duration": "3 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 14.99,
+        "original": 19.99,
+        "discount": "-25%"
+      },
+      "tags": ["Mental Health"],
+      "image": "https://ashwanideswal.com/wp-content/uploads/2023/06/Mindfulness-Exercises-for-beginners.jpg",
+      "description": "Learn the basics of mindfulness to reduce stress and enhance mental clarity."
+    },
+    {
+      "id": 13,
+      "category": "Business",
+      "title": "Marketing Strategies for 2025",
+      "type": "Course",
+      "lessons": 15,
+      "duration": "8 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 59.99,
+        "original": 79.99,
+        "discount": "-25%"
+      },
+      "tags": ["Marketing", "Trending"],
+      "image": "https://media.licdn.com/dms/image/v2/D5612AQEPLJApgbr3GQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1729883260976?e=2147483647&v=beta&t=t6ecJsLh2uQpEncjvsv9-PqTvcPZxoU9lPeBhNHE_Dk",
+      "description": "Learn the most up-to-date marketing strategies to grow your business in 2025."
+    },
+    {
+      "id": 14,
+      "category": "Business",
+      "title": "Leadership in the Modern Workplace",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 39.99,
+        "original": 49.99,
+        "discount": "-20%"
+      },
+      "tags": ["Leadership"],
+      "image": "https://trainingindustry.com/content/uploads/2023/05/GettyImages-1439931940-1.jpg",
+      "description": "Learn how to lead teams effectively and drive results in today’s dynamic work environments."
+    },
+    {
+      "id": 15,
+      "category": "Business",
+      "title": "Entrepreneurship 101",
+      "type": "Course",
+      "lessons": 20,
+      "duration": "10 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 49.99,
+        "original": 69.99,
+        "discount": "-29%"
+      },
+      "tags": ["Business", "Startups"],
+      "image": "https://rechargeinspiration.com/wp-content/uploads/2023/10/tree-2987962_1280-entrepreneurship-scaled.jpg",
+      "description": "A step-by-step guide to starting and growing your own business from scratch."
+    },
+    {
+      "id": 16,
+      "category": "Finance",
+      "title": "Introduction to Stock Market",
+      "type": "Course",
+      "lessons": 8,
+      "duration": "5 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 24.99,
+        "original": 34.99,
+        "discount": "-29%"
+      },
+      "tags": ["Investment"],
+      "image": "https://media.licdn.com/dms/image/v2/D4D12AQGauQLOqw4T6Q/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1686582397554?e=2147483647&v=beta&t=rpOlvImxiJUvDhkDZJvabE72PrKIKeZ9Bg44KYErqAs",
+      "description": "Learn the basics of stock market investing and how to get started with trading."
+    },
+    {
+      "id": 17,
+      "category": "Finance",
+      "title": "Personal Finance Management",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "6 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Finance"],
+      "image": "https://media.licdn.com/dms/image/D4D12AQHoR_IO90uvaA/article-cover_image-shrink_720_1280/0/1681189354339?e=2147483647&v=beta&t=8V1o4N-xSEIV3de5hYXS3OfaN09RQOaQMWKeQR101HM",
+      "description": "Master your personal finances and learn how to budget, save, and invest wisely."
+    },
+    {
+      "id": 18,
+      "category": "Finance",
+      "title": "Real Estate Investment Basics",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 39.99,
+        "original": 59.99,
+        "discount": "-33%"
+      },
+      "tags": ["Investment"],
+      "image": "https://img.paperfree.com/file_paperfree_144_2020-8-25-27-20-_methods_of_investing_in_real_estates_by_paperfree.jpg",
+      "description": "Learn the fundamentals of investing in real estate and how to build wealth through property."
+    },
+  {
+      "id": 19,
+      "category": "Marketing",
+      "title": "Digital Marketing Essentials",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 39.99,
+        "original": 49.99,
+        "discount": "-20%"
+      },
+      "tags": ["Digital", "Marketing"],
+      "image": "path/to/digital-marketing.jpg",
+      "description": "Master the basics of digital marketing, including SEO, social media, and email marketing."
+    },
+    {
+      "id": 20,
+      "category": "Marketing",
+      "title": "Advanced SEO Strategies",
+      "type": "Course",
+      "lessons": 15,
+      "duration": "8 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 49.99,
+        "original": 69.99,
+        "discount": "-29%"
+      },
+      "tags": ["SEO", "Advanced"],
+      "image": "path/to/advanced-seo.jpg",
+      "description": "Take your SEO skills to the next level with advanced techniques and strategies."
+    },
+    {
+      "id": 21,
+      "category": "Marketing",
+      "title": "Social Media Advertising Mastery",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Social Media", "Advertising"],
+      "image": "path/to/social-media-advertising.jpg",
+      "description": "Learn how to create successful paid advertising campaigns on platforms like Facebook and Instagram."
+    },
+    {
+      "id": 22,
+      "category": "Photography",
+      "title": "Photography Basics for Beginners",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 24.99,
+        "original": 34.99,
+        "discount": "-29%"
+      },
+      "tags": ["Photography", "Beginner"],
+      "image": "path/to/photography-basics.jpg",
+      "description": "Learn the fundamental skills and techniques for capturing beautiful photographs."
+    },
+    {
+      "id": 23,
+      "category": "Photography",
+      "title": "Portrait Photography Mastery",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 39.99,
+        "original": 59.99,
+        "discount": "-33%"
+      },
+      "tags": ["Portrait", "Photography"],
+      "image": "path/to/portrait-photography.jpg",
+      "description": "Master the art of portrait photography with professional techniques and tips."
+    },
+    {
+      "id": 24,
+      "category": "Photography",
+      "title": "Advanced Photo Editing Techniques",
+      "type": "Course",
+      "lessons": 15,
+      "duration": "8 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 49.99,
+        "original": 69.99,
+        "discount": "-29%"
+      },
+      "tags": ["Photo Editing", "Advanced"],
+      "image": "path/to/advanced-photo-editing.jpg",
+      "description": "Take your photo editing skills to the next level with advanced Photoshop and Lightroom techniques."
+    },
+    {
+      "id": 25,
+      "category": "Data Science",
+      "title": "Introduction to Data Science",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Data Science", "Beginner"],
+      "image": "path/to/data-science-introduction.jpg",
+      "description": "Get started with data science and learn the essential concepts and tools used in the field."
+    },
+    {
+      "id": 26,
+      "category": "Data Science",
+      "title": "Machine Learning with Python",
+      "type": "Course",
+      "lessons": 15,
+      "duration": "8 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 49.99,
+        "original": 69.99,
+        "discount": "-29%"
+      },
+      "tags": ["Machine Learning", "Python"],
+      "image": "path/to/machine-learning-python.jpg",
+      "description": "Learn how to build machine learning models using Python and make data-driven predictions."
+    },
+    {
+      "id": 27,
+      "category": "Data Science",
+      "title": "Deep Learning Fundamentals",
+      "type": "Course",
+      "lessons": 18,
+      "duration": "10 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 59.99,
+        "original": 89.99,
+        "discount": "-33%"
+      },
+      "tags": ["Deep Learning", "Advanced"],
+      "image": "path/to/deep-learning.jpg",
+      "description": "Dive deep into the world of deep learning and explore neural networks, CNNs, and more."
+    },
+  {
+      "id": 28,
+      "category": "Health & Fitness",
+      "title": "Home Workout for Beginners",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 19.99,
+        "original": 29.99,
+        "discount": "-33%"
+      },
+      "tags": ["Fitness", "Home Workout"],
+      "image": "path/to/home-workout.jpg",
+      "description": "Start your fitness journey with easy home workouts designed for beginners."
+    },
+    {
+      "id": 29,
+      "category": "Health & Fitness",
+      "title": "Nutrition for Optimal Health",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Nutrition", "Health"],
+      "image": "path/to/nutrition-optimal-health.jpg",
+      "description": "Learn how to fuel your body with the right nutrition to enhance your health and energy."
+    },
+    {
+      "id": 30,
+      "category": "Health & Fitness",
+      "title": "Mental Wellness and Stress Management",
+      "type": "Course",
+      "lessons": 8,
+      "duration": "4 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 24.99,
+        "original": 34.99,
+        "discount": "-29%"
+      },
+      "tags": ["Mental Health", "Stress Management"],
+      "image": "path/to/mental-wellness.jpg",
+      "description": "Learn techniques to manage stress, improve mental health, and achieve overall wellness."
+    },
+    {
+      "id": 31,
+      "category": "Music",
+      "title": "Learning the Basics of Guitar",
+      "type": "Course",
+      "lessons": 15,
+      "duration": "7 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Guitar", "Music"],
+      "image": "path/to/guitar-basics.jpg",
+      "description": "Start playing guitar with easy-to-follow lessons that cover all the basics for beginners."
+    },
+    {
+      "id": 32,
+      "category": "Music",
+      "title": "Piano Mastery for Beginners",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Beginner",
+      "price": {
+        "current": 24.99,
+        "original": 34.99,
+        "discount": "-29%"
+      },
+      "tags": ["Piano", "Music"],
+      "image": "path/to/piano-mastery.jpg",
+      "description": "Learn the basics of playing piano, including reading music, chords, and simple songs."
+    },
+    {
+      "id": 33,
+      "category": "Music",
+      "title": "Music Production Basics",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 39.99,
+        "original": 49.99,
+        "discount": "-20%"
+      },
+      "tags": ["Music Production", "Studio"],
+      "image": "path/to/music-production.jpg",
+      "description": "Learn the fundamentals of music production and start creating your own tracks."
+    },
+    {
+      "id": 34,
+      "category": "Teaching & Academics",
+      "title": "Effective Classroom Management",
+      "type": "Course",
+      "lessons": 10,
+      "duration": "5 hours",
+      "level": "Intermediate",
+      "price": {
+        "current": 29.99,
+        "original": 39.99,
+        "discount": "-25%"
+      },
+      "tags": ["Teaching", "Classroom Management"],
+      "image": "path/to/classroom-management.jpg",
+      "description": "Learn effective techniques for managing your classroom and creating a productive learning environment."
+    },
+    {
+      "id": 35,
+      "category": "Teaching & Academics",
+      "title": "Curriculum Development Essentials",
+      "type": "Course",
+      "lessons": 15,
+      "duration": "7 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 49.99,
+        "original": 69.99,
+        "discount": "-29%"
+      },
+      "tags": ["Curriculum Development", "Education"],
+      "image": "path/to/curriculum-development.jpg",
+      "description": "Master the art of designing effective curricula that meet the needs of diverse learners."
+    },
+    {
+      "id": 36,
+      "category": "Teaching & Academics",
+      "title": "Advanced Educational Psychology",
+      "type": "Course",
+      "lessons": 12,
+      "duration": "6 hours",
+      "level": "Advanced",
+      "price": {
+        "current": 39.99,
+        "original": 49.99,
+        "discount": "-20%"
+      },
+      "tags": ["Psychology", "Education"],
+      "image": "path/to/educational-psychology.jpg",
+      "description": "Deep dive into educational psychology and learn strategies to enhance student learning."
+    }
+  ]
+  
